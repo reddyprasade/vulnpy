@@ -32,4 +32,4 @@ jobs:
     - name: Install packages
       run: pip install boman-cli
     - name: Run scan  
-      run: boman-cli -a run
+      run: boman-cli -a run -u https://devapi.boman.ai/v2/
