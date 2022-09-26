@@ -10,7 +10,7 @@ SCA:
 SAST:
   language: "python" 
 
-DAST:
+#DAST:
   #type: "WEB" ## API, WEB, WEB-ADV
   #URL: "https://www.boman.ai/" 
 
