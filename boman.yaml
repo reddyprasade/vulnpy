@@ -1,23 +1,17 @@
-#Auth:
-  #project_token: "48102595-62aa-4336-ab6d-79349c9ec1d6"
-  #customer_token:  "389e4d4a-ece0-4c1c-be13-384b1434c0f6"
-
-
-
-   
+ 
 Auth:
-  project_token: "62d86c99-0107-46ec-8d8d-fc25205d76f3"
-  customer_token:  "389e4d4a-ece0-4c1c-be13-384b1434c0f6" #devtokens
+  project_token: "89a21e76-fe5a-4bc0-904e-6808d3a2ba9f"
+  customer_token:  "1f3dc7b3-cb4e-4eb9-b5ee-c780947f12e3" #devtokens
 
    
-# SCA:
-#    language: "js" 
+SCA:
+    language: "python" 
 
 SAST:
   language: "python" 
 
-#DAST:
+DAST:
   #type: "WEB" ## API, WEB, WEB-ADV
   #URL: "https://www.boman.ai/" 
 
-#Secret_Scan: True
+Secret_Scan: True
