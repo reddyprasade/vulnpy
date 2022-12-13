@@ -8,7 +8,7 @@ SCA:
     language: "python" 
 
 SAST:
-  language: "python","python-snyk"
+  language: "python-snyk"
 
 DAST:
   type: "WEB" ## API, WEB, WEB-ADV
