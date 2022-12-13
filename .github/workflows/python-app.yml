@@ -31,6 +31,6 @@ jobs:
      # Runs a single command using the runners shell
     - name: Install packages
       #run: pip install boman-cli
-      run: pip install boman-cli-uat
+      run: pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==0.7
     - name: Run scan  
       run: boman-cli -a run -u https://devapi.boman.ai/v2/
