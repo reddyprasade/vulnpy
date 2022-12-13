@@ -30,6 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
      # Runs a single command using the runners shell
     - name: Install packages
-      run: pip install boman-cli
+      #run: pip install boman-cli
+      run: pip install boman-cli-uat
     - name: Run scan  
       run: boman-cli -a run -u https://devapi.boman.ai/v2/
