@@ -12,6 +12,6 @@ SAST:
 
 DAST:
   type: "WEB" ## API, WEB, WEB-ADV
-  URL: "https://www.boman.ai/" 
+  URL: "https://ibegin.tcs.com/iBegin/?geography=IN&language=EN" 
 
 Secret_Scan: True
