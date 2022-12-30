@@ -4,14 +4,14 @@ Auth:
   customer_token:  "1f3dc7b3-cb4e-4eb9-b5ee-c780947f12e3" #devtokens
 
    
-#SCA:
-#    language: "python" 
+SCA:
+    language: "python" 
 
 SAST:
-  language: "python-snyk"
+  language: "python"
 
-#DAST:
-#  type: "WEB" ## API, WEB, WEB-ADV
-#  URL: "https://ibegin.tcs.com/iBegin/?geography=IN&language=EN" 
+DAST:
+  type: "WEB" ## API, WEB, WEB-ADV
+  URL: "https://ibegin.tcs.com/iBegin/?geography=IN&language=EN" 
 
-#Secret_Scan: True
+Secret_Scan: True
